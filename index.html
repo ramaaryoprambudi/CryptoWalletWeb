@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Crypto News | News all Crypto</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="top-navigation">
+      <div class="menu-btn-right">
+        <a href="#">
+          <img src="./Assets/logo.png" alt="Company logo" class="Logo"
+        /></a>
+        <a href="#">
+          <img src="./Assets/logo-text.png" alt="logo-text" class="Logo-text" />
+        </a>
+        <ul>
+          <li class="nav-list"><a href="#">Exchange</a></li>
+          <li class="nav-list"><a href="#">Market </a></li>
+        </ul>
+      </div>
+      <div class="menu-btn-left">
+        <button class="btn btn-second" id="btnLogin">Masuk</button>
+        <button class="btn btn-primary" id="btnRegister">Daftar</button>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Hero -->
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>
+          Jual beli
+          <br />
+          Crypto dalam
+          <br />
+          hitungan menit
+        </h1>
+        <p>
+           Perdagangkan Bitcoin, Ethereum, USDT, 
+          dan altcoin teratas di
+          <br />
+          bursa aset kripto legendaris
+        </p>
+        <button class="btn-hero btn-text-hero">
+          <a href="#">Market Trend</a>
+        </button>
+      </div>
+      <div class="hero-image">
+        <img src="./Assets/hero.png" alt="Hero Image" />
+      </div>
+    </div>
+    <!-- End Hero -->
+    <!-- Info -->
+    <div class="info-container">
+      <div class="info-card">
+        <div class="info-content">
+          <img src="./Assets/icon1.png" alt="BTC Image" />
+          <p class="info-header">Bitcoin/BTC</p>
+          <h3 class="info-Money">$61,935.97</h3>
+          <p class="info-value">+0,67%</p>
+        </div>
+        <div class="info-content">
+          <img src="./Assets/icon2.png" alt="Ethereum logo" />
+          <p class="info-header">Ethereum/ETH</p>
+          <h3 class="info-Money">$61,935.97</h3>
+          <p class="info-value">-0,67%</p>
+        </div>
+        <div class="info-content">
+          <img src="./Assets/icon3.png" alt="Binance Coin Logo" />
+          <p class="info-header">Binance Coin/BNB</p>
+          <h3 class="info-Money">$485.10</h3>
+          <p class="info-value">+0,67%</p>
+        </div>
+        <div class="info-content">
+          <img src="./Assets/icon4.png" alt="Tether Logo" />
+          <p class="info-header">Tether/USDT</p>
+          <h3 class="info-Money">$61,935.97</h3>
+          <p class="info-value">+0,67%</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Info -->
+    <!-- Footer -->
+    <footer class="footer-container">
+      <div class="footer-navigation">
+        <h4>FEATURES</h4>
+          <ul class="footer-menu">
+            <li class="link-footer"><a href="#">Home</a></li>
+            <li class="link-footer"><a href="#" >Exchange</a></li>
+            <li class="link-footer"><a href="#">Market</a></li>
+            <li class="link-footer"><a href="#" >Top up</a></li>
+          </ul>
+        </div>
+        <div class="footer-navigation">
+          <h4>Address</h4>
+            <ul class="footer-menu">
+              <li class="link-footer">Jakarta Selatan</li>
+              <li class="link-footer">Indonesia</li>
+              <li class="link-footer">+6287894015388</li>
+              <li class="link-footer">hello@cryptowallet.id</li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Modal -->
+    <div class="modal" id="btnRegisterasi">
+      <div class="modal-content">
+        <div class="modal-close">
+          <span class="icon-close">&times;</span>
+        </div>
+        <h4>Daftar Ke CryptoWallet</h4>
+        <div class="modal-desc">
+          Sudah punya akun? <a href="#" id="masukDisini"> Masuk Disini !</a>
+        </div>
+        <form>
+          <div class="form-input">
+            <label>Email</label>
+            <input type="Email" placeholder="Masukan Email">
+          </div>
+        </form>
+        <form >
+          <div class="form-input">
+            <label> Kata Sandi</label>
+            <input type="password" placeholder="Masukan Kata Sandi">
+          </div>
+        </form>
+        <form >
+          <div class="form-input">
+            <label>Konfirmasi Kata Sandi</label>
+            <input type="password" placeholder="Masukan Kata Sandi">
+          </div>
+        </form>
+        <div class="modal-footer">
+          Dengan klik mendaftar, saya menyetujui <a href="#">Syarat dan Ketentuan </a>
+          serta <a href="#">Kebijakan Privasi</a> CryptoWallet
+        </div>
+        <button class="btn btn-primary btn-block">Daftar</button>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- Login -->
+    <div class="Login" >
+      <div class="login-content">
+        <div class="login-close">
+          <span class="icon-close-login">&times;</span>
+        </div>
+        <h4>Masuk Ke CryptoWallet</h4>
+        <div class="modal-desc-login">
+          Belum punya akun? <a href="#" id="daftarAccount"> Daftar</a>
+        </div>
+        <div class="login-google">
+          <a href="https://accounts.google.com/v3/signin/identifier?dsh=S621642046%3A1667742728740131&hl=id&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAuwjx_DWu11utMT6zIB48uqybt28eiFtRslvnUygEdo2qSnomqpHHMkm82Dd_T33aM0kRy7JA">
+          <button class="btn-login-google btn-block-google">
+           <img src="./Logo/google.webp" alt="logo Google" class="logo-google">
+            <p> Masuk dengan Google</p></a>
+          </button>
+        </div>
+        <div class="line-or">
+          or
+        </div>
+        <form>
+          <div class="form-input-login">
+            <label>Alamat Email</label>
+            <input type="Email" placeholder="Masukan Email">
+          </div>
+        </form>
+        <form >
+          <div class="form-input-login">
+            <label> Kata Sandi</label>
+            <input type="password" placeholder="Masukan Kata Sandi">
+          </div>
+        </form>
+        
+        <button class="btn btn-primary btn-block ">Masuk</button>
+      </div>
+    </div>
+    <script src="./Event.js"></script>
+  </body>
+</html>
